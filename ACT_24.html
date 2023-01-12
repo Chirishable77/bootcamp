@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+
+    <style>
+        .navbar {
+            background-color: orange;
+            opacity: 60%;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid gray;
+        }
+
+        .top-heading {
+            background-color: rgb(255, 200, 99);
+        }
+
+        .sub-heading {
+            background-color: rgb(255, 229, 182);
+        }
+
+        #sub-heading {
+            background-color: rgb(250, 238, 216);
+        }
+
+        .food-icon {
+            height: 30px;
+        }
+
+
+        .thumbnail:hover {
+            background-color: rgb(106, 92, 76);
+
+        }
+
+        .food-row:hover {
+            background-color: orange;
+        }
+    </style>
+    <title>Bear Burger's - Order</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="https://cdn-icons-png.flaticon.com/512/161/161588.png"
+                    style="width: 50px" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link active thumbnail" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active thumbnail" href="#">Order</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link disabled thumbnail" href="#" tabindex="-1" aria-disabled="true">Shop</a>
+                    </li>
+                </ul>
+                <form class="d-flex" style="color:black">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">
+                        Search
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container mt-5 pb-5">
+        <h1 class="display-1">Order Here!</h1>
+        <div class="row">
+            <div class="col-lg-8">
+                <table class="table table-border">
+                    <tr class="text-center top-heading">
+                        <th>Icons</th>
+                        <th>Item Name</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr class="sub-heading">
+                        <th colspan="3" class="text-center">Meals</th>
+                    </tr>
+                    <tr class="food-row">
+                        <td><img src="https://purepng.com/public/uploads/large/purepng.com-burgersandwhichfoodbreadcaviarburgerdelicious-21526117698ci2tq.png"
+                                class="food-icon" /></td>
+                        <td>Burgers</td>
+                        <td>₱55.00</td>
+                    </tr>
+                    <tr class="food-row">
+                        <td><img src="https://www.freepnglogos.com/uploads/fried-chicken-png/crispy-fried-chicken-png-0.png"
+                                class="food-icon" /></td>
+                        <td>Fried chicken</td>
+                        <td>₱55.00</td>
+                    </tr>
+                    <tr class="food-row">
+                        <td><img src="https://www.freepnglogos.com/uploads/pasta-png/pasta-microwave-pressure-cooker-silverstone-6.png"
+                                class="img-fluid" style="width:50px" /></td>
+                        <td>Spaghetti</td>
+                        <td>₱55.00</td>
+                    </tr>
+                    <tr class="food-row">
+                        <td><img src="https://www.seekpng.com/png/detail/950-9501011_png-corn-pizza.png"
+                                class="food-icon" /></td>
+                        <td>Pizza</td>
+                        <td>₱150.00</td>
+                    </tr>
+                    <tr class="food-row">
+                        <th colspan="3" class="text-center">Drinks</th>
+                    </tr>
+                    <tr class="food-row">
+                        <td><img src="https://pngimg.com/uploads/cocacola/cocacola_PNG3.png" class="food-icon" /></td>
+                        <td>Coke</td>
+                        <td>₱20.00</td>
+                    </tr>
+                    <tr class="food-row">
+                        <td><img src="http://atlas-content-cdn.pixelsquid.com/stock-images/clear-soda-glass-with-droplets-cup-GqD29Z8-600.jpg"
+                                class="food-icon" /></td>
+                        <td>Sprite</td>
+                        <td>₱20.00</td>
+                    </tr>
+                    <tr class="food-row">
+                        <td><img src="https://www.seekpng.com/png/detail/957-9577399_soft-drink-in-a-glass.png"
+                                class="food-icon" /></td>
+                        <td>Sarsi</td>
+                        <td>₱20.00</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" rowspan="2" id="sub-heading">
+                            All items are subject to tax. No refunds. All items are not
+                            transferable.
+                        </td>
+                        <td class="food-row">Extra rice - ₱20.00</td>
+                    </tr>
+                    <tr>
+                        <td class="food-row">Condiments - ₱20.00</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-lg-4">
+                <img src="https://www.dellacasapasta.com/images/basil-sauce.png" class="img-fluid" />
+            </div>
+        </div>
+    </div>
+    <div style="background-color: black">
+        <div class="container text-white pt-5">
+            <h1 class="display-2">Tell Us What You Think!</h1>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="https://thumbs.dreamstime.com/b/cucumber-burger-ingredients-floating-black-background-isolated-vertical-cucumber-burger-ingredients-floating-bun-cheese-tomato-177814997.jpg"
+                        class="img-fluid" />
+                </div>
+                <div class="col-lg-6">
+                    <form>
+                        <div class="form-group">
+                            <label>Name (optional)</label>
+                            <input type="text" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label>Province (optional)</label>
+                            <input type="text" class="form-control" />
+                        </div>
+                        <div class="form-group mt-3">
+                            <label>How many times have you went to our restaurant?</label><br />
+                            <input type="radio" name="times-visited" value="This is the first time!" />This is the first
+                            time!<br />
+                            <input type="radio" name="times-visited" value="Second time" />Second time<br />
+                            <input type="radio" name="times-visited" value="Third time or more" />Third time or
+                            more<br />
+                        </div>
+                        <div class="form-group mt-3">
+                            <label>How would you rate the food?</label><br />
+                            <input type="radio" name="food-rating" value="1-star" />⭐
+                            <input type="radio" name="food-rating" value="2-star" />⭐⭐
+                            <input type="radio" name="food-rating" value="3-star" />⭐⭐⭐
+                            <input type="radio" name="food-rating" value="4-star" />⭐⭐⭐⭐
+                            <input type="radio" name="food-rating" value="5-star" />⭐⭐⭐⭐⭐
+                        </div>
+                        <div class="form-group mt-3">
+                            <label>How would you rate the services?</label><br />
+                            <input type="radio" name="service-rating" value="1-star" />⭐
+                            <input type="radio" name="service-rating" value="2-star" />⭐⭐
+                            <input type="radio" name="service-rating" value="3-star" />⭐⭐⭐
+                            <input type="radio" name="service-rating" value="4-star" />⭐⭐⭐⭐
+                            <input type="radio" name="service-rating" value="5-star" />⭐⭐⭐⭐⭐
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5 pb-5">
+            <h2 class="text-center" id="contact" style="color:white">irishpatlingrao@rocketmail.com/ 0966-685-5226</h2>
+        </div>
+        <div class="container mt-5 pb-5 ">
+            <div class=" text-center">
+                <image src="Facebook_icon.svg.png" style="width:40px"></image>
+                <image src="twitter.png" style="width:40px" />
+                <image src="linkedin.png" style="width:40px" />
+                <image src="Instagram_icon.png.webp" style="width:40px" />
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

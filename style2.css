@@ -1,0 +1,114 @@
+
+
+body {
+    margin: 0px;
+    font-family: 'Comic Sans MS';
+    background-image:url("https://thumbs.dreamstime.com/b/grainy-white-paper-surface-as-texture-background-close-up-macro-200678301.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(70, 130, 180);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+}
+h1{
+    color: rgb:(0, 0, 139);
+}
+
+#positions {
+    text-align: center
+}
+
+
+#banner.picture {
+
+    width: 550px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 250%;
+    color: rgb(70, 130, 180)
+}
+
+#pastor {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#pastorpic {
+    margin-right: 20px;
+}
+
+#free {
+    font-size: 200%;
+    color: rgb(70, 130, 180);
+}
+
+#save {
+    font-size: 200%;
+    color: blue;
+
+}
+
+a:link {
+    color: blue;
+  }
+  
+  a:visited {
+    color: orange;
+  }
+  
+  a:hover {
+    color: magenta;
+  }
+  
+  a:active {
+    color: lime;
+  }
+  
+  
+
+#cross {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px
+}
+
+#lists {
+    text-align: center;
+    list-style-position: inside;
+    margin-left: 150px;
+    margin-right: 150px;
+    border:2px;
+    border-style:dotted;
+    tr:nth-child(even) {background-color:lightgray};
+    a:hover{color:lightorange}
+
+     
+
+}
+
+
+
+footer {
+    color: rgb(160, 160, 160);
+    font-size: 75%;
+    text-align: center;
+    margin-top: 50px
+    
+}
+
+#withlines {
+    color: rgb(160, 160, 160)
+}

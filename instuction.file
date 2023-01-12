@@ -1,0 +1,45 @@
+Description
+Open VS Code.
+Title the page ISCP Employee Registration Form
+Create a heading ISCP Employee Registration Form
+Below the heading, add an image of ISCP.Links to an external site.
+Use absolute location.
+Below the image, embed the following video Links to an external site..
+Below the image, create a form with the following fields separated by headings. Decide on the most appropriate input type for each. Don't worry about the design!
+Basic information
+First name
+Last name
+Place of birth
+Birthdate
+Civil status (single, married, widowed, separated)
+Gender (male, female, other)
+Mother's maiden name
+Father's name
+Contact information
+Email address
+Contact number (mobile)
+Contact number (telephone)
+Address
+Street number
+Street name
+Barangay
+City/Town
+Province
+Full address
+Government information
+SSS ID
+Pag-Ibig ID
+PhilHealth ID
+Upload 2x2 picture
+Upload picture of government ID
+Account information
+Username
+Password
+Confirm password
+Upload profile image
+Have you experienced any of the following in the last 30 days?
+Coughing, Fever, Headache, Common cold, Body ache, Sore throat, Tiredness, Loss of smell
+Give a short description about yourself.
+Make the placeholder text for each (where applicable) to be appropriate to the field.
+Name your file registration.html.
+Submit your .html file here.
